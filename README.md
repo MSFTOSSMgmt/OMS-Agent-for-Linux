@@ -1,10 +1,10 @@
-# Operations Management Suite Agent for Linux
+# [DEPRECATED] Operations Management Suite Agent for Linux
+
+> :warning: The Log Analytics agent has been **deprecatated** and has no support as of **August 31, 2024.** If you use the Log Analytics agent to ingest data to Azure Monitor, [migrate now to the new Azure Monitor agent](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration).
+>
 
 ## Overview
 Welcome to the Log Analytics agent for Linux! The agent for Linux enables rich and real-time analytics for operational data (Syslog, performance, alerts, inventory) from Linux servers, Docker containers and monitoring tools like Nagios, Zabbix and System Center.
-
-> :warning: The Log Analytics agent is on a **deprecation path** and won't be supported after **August 31, 2024.** If you use the Log Analytics agent to ingest data to Azure Monitor, make sure to  [migrate to the new Azure Monitor agent](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration)  prior to that date.
->
 
 ## Quick Install guide
 The following steps configure setup of the Log Analytics agent in Azure and Azure Government cloud.  *Commands are for 64-bit*. Before installing the Log Analytics agent for Linux, you need the workspace ID and key for your Azure Monitor Log Analytics workspace. 
